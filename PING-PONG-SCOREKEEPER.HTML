@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+<style> 
+.select-container {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+.select-container .label {
+    margin-right: 0.5rem;
+}
+h1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+ font-size: 2rem;
+ text-align: center;
+        }
+
+
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="columns">
+        <div class="column is-half is-offset-one-quarter">
+            <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by2">
+                    <img
+                      src="C:\Users\arunp\OneDrive\Desktop\download (3).jpg"
+                      alt="Placeholder image"
+                    />
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left">
+                      <figure class="image is-48x48">
+                        <img
+                          src="https://bulma.io/assets/images/placeholders/96x96.png"
+                          alt="Placeholder image"
+                        />
+                      </figure>
+                    </div>
+                    <div class="media-content">
+                      <p class="title is-size-1">Score-Keeper</p>
+                      <p class="subtitle">Use the buttons to below to keep score</p>
+                      <h1><span class="player1"> 0 </span>to <span class="player2"> 0 </span></h1>
+                    
+                      <div class="select-container">
+                        <label for="noOfPoints" class="label">Playing to</label>
+                        <div class="select is-rounded">
+                          <select name="number" id="noOfPoints">
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                          </select>
+                        </div>
+                    </div>
+                      <footer class="card-footer">
+                        <button class="is-primary button card-footer-item buttonPlayer1">+1 Player One</button>    
+                        <button class="is-info button card-footer-item buttonPlayer2">+1 Player Two</button>    
+                        <button class="is-danger button card-footer-item reset">Reset</button>    
+                      </footer>
+                    </div>
+                  </div>
+                  <div class="content">
+                       
+                        </div>
+                     </div>
+                    <br />
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+<script src="PING-PONG-SCOREKEEPER.js"></script>
+</body>
+</html>

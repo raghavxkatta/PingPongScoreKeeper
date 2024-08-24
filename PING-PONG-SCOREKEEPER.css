@@ -1,0 +1,22 @@
+.buttonPlayer1 {
+    background-color: aquamarine;
+    padding:1em;
+}
+
+.buttonPlayer2 {
+    background-color:aqua ;
+    padding:1em;
+}
+
+.reset {
+    background-color: red;
+    padding:1em;
+}
+
+.winner{
+    color:green
+}
+
+.loser{
+    color:red
+}
